@@ -1,4 +1,4 @@
-# 🧠 EEG Signal Explorer
+# EEG Signal Explorer
 
 Explore EEG recordings with filtering, visualization, and frequency
 analysis using publicly available neuroscience datasets. A
@@ -9,17 +9,17 @@ applications.
 ![Example output](images/sample_output.png)
 
 ---
-## 📌 Features
+## Features
 
-- 🧠 Load EEG recordings from open datasets
-- 📈 Visualize raw EEG signals
-- 🎚️ Apply band-pass and notch filtering
-- 📊 Perform frequency spectrum (FFT) analysis
-- 🌊 Display power spectral density (PSD)
-- 📓 Interactive analysis using Jupyter Notebook
+- Load EEG recordings from open datasets
+- Visualize raw EEG signals
+- Apply band-pass and notch filtering
+- Perform frequency spectrum (FFT) analysis
+- Display power spectral density (PSD)
+- Interactive analysis using Jupyter Notebook
 
 ---
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3**
 - **MNE-Python**
@@ -27,39 +27,13 @@ applications.
 - **Matplotlib**
 
 ---
-## 📂 Project Structure
 
-```text
-eeg-signal-explorer/
-│
-├── data/
-│   ├── sample_eeg.edf
-│   └── README.md
-│
-├── notebooks/
-│   └── eeg_analysis.ipynb
-│
-├── src/
-│   ├── loader.py
-│   ├── preprocessing.py
-│   ├── analysis.py
-│   └── visualization.py
-│
-├── images/
-│   └── sample_output.png
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
----
-## 📥 Installation
+## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/eeg-signal-explorer.git
+git clone https://github.com/cent4uri/eeg-signal-explorer.git
 cd eeg-signal-explorer
 ```
 
@@ -82,7 +56,7 @@ notebooks/eeg_analysis.ipynb
 ```
 
 ---
-## 🐍 Quick start (without Jupyter)
+## Quick start (without Jupyter)
 
 ```python
 from src import loader, preprocessing, analysis, visualization
@@ -102,7 +76,7 @@ plt.show()
 ```
 
 ---
-## 📊 Example Analyses
+## Example Analyses
 
 - Raw EEG waveform visualization
 - Filtered EEG comparison
@@ -112,7 +86,7 @@ plt.show()
 - EEG band power (delta/theta/alpha/beta/gamma) by channel
 
 ---
-## 📚 Datasets
+## Datasets
 
 This project ships with a small synthetic EEG recording
 (`data/sample_eeg.edf`) so it runs immediately with no downloads. It
@@ -126,7 +100,7 @@ EDF, BDF, or FIF. See `data/README.md` for details on the synthetic
 sample data and on loading external datasets.
 
 ---
-## 📖 Learning Objectives
+## Learning Objectives
 
 This project helps you learn:
 
@@ -138,17 +112,7 @@ This project helps you learn:
 - Biomedical signal processing with Python
 
 ---
-## 🚀 Future Improvements
-
-- [ ] Time-frequency (Wavelet) analysis
-- [ ] Event-Related Potential (ERP) visualization
-- [ ] Interactive Plotly dashboards
-- [ ] Machine learning classification
-- [ ] Brain connectivity analysis
-- [ ] Streamlit web interface
-
----
-## 📚 References
+## References
 
 - PhysioNet: https://physionet.org/
 - OpenNeuro: https://openneuro.org/
@@ -157,12 +121,12 @@ This project helps you learn:
 - Matplotlib Documentation: https://matplotlib.org/
 
 ---
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ---
-## ⭐ Acknowledgements
+## Acknowledgements
 
 Special thanks to:
 
