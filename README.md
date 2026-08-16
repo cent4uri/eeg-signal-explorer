@@ -2,6 +2,9 @@
 
 Explore EEG recordings with filtering, visualization, and frequency analysis using publicly available neuroscience datasets. This beginner-friendly project demonstrates essential EEG signal processing techniques for neuroscience and biomedical engineering applications.
 
+> ** Project Status: In Progress**
+>
+> The core spike-train loading, analysis, and visualization components are being developed incrementally.
 ---
 
 ## Features
