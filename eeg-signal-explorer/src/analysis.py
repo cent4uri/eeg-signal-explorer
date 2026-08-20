@@ -104,8 +104,6 @@ def band_power(freqs, psd, band):
     if not np.any(mask):
         return np.zeros(psd.shape[:-1])
 
-    # np.trapz was removed in NumPy 2.0 in favor of np.trapezoid;
-    # support both so this works across NumPy versions.
     trapezoid_fn = getattr(np, "trapezoid", None) or np.trapz
     return trapezoid_fn(psd[..., mask], freqs[mask], axis=-1)
 
