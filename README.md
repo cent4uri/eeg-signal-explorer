@@ -4,7 +4,7 @@ Explore EEG recordings with filtering, visualization, and frequency analysis usi
 
 > ** Project Status: In Progress**
 >
-> The core spike-train loading, analysis, and visualization components are being developed incrementally.
+> The components are being developed incrementally.
 ---
 
 ## Features
